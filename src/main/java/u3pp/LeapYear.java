@@ -13,7 +13,7 @@ public class LeapYear {
 	 */
 	public static boolean isLeapYear(int year) {
 		/* YOUR CODE HERE */
-		//可以被四整除的每一年都是润年
+		//Every year that can be divided by four is a Runnian
 		Boolean isLeapYear = Boolean.TRUE;
 		if(year % 4 == 0){
 			isLeapYear = Boolean.TRUE ;
